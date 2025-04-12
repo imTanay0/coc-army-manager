@@ -2,13 +2,13 @@ import { Tabs } from "expo-router";
 import React from "react";
 import { Image, ImageBackground, Platform, Text, View } from "react-native";
 
-import { HapticTab } from "@/components/HapticTab";
-import TabBarBackground from "@/components/ui/TabBarBackground";
-import { Colors } from "@/constants/Colors";
-import { useColorScheme } from "@/hooks/useColorScheme";
+import { HapticTab } from "~/components/HapticTab";
+import TabBarBackground from "~/components/ui/TabBarBackground";
+import { Colors } from "~/constants/Colors";
+import { useColorScheme } from "~/hooks/useColorScheme";
 
-import { icons } from "@/constants/icons";
-import { images } from "@/constants/images";
+import { icons } from "~/constants/icons";
+import { images } from "~/constants/images";
 import "../global.css";
 
 const TabIcon = ({ focused, icon, title }: any) => {
